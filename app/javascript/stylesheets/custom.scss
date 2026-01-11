@@ -1,0 +1,37 @@
+// カスタムスタイル
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 150px);
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.notice, .alert {
+  margin: 10px 0;
+}
+
+// User info
+.table th, .table td {
+  border-top: none;
+}
+
+// Forms
+.form-group {
+  margin-bottom: 1rem;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+}
